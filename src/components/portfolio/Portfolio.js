@@ -31,7 +31,11 @@ const Portfolio = forwardRef((props, ref) => {
           </div>
         </div>
         <div className="portfolio__project--right">
-          <img src={portfolioecom} alt="ecom" />
+          <img
+            className="portfolio__project--img"
+            src={portfolioecom}
+            alt="ecom"
+          />
         </div>
       </a>
       <div className="portfolio__project--and">&</div>
@@ -43,7 +47,11 @@ const Portfolio = forwardRef((props, ref) => {
         rel="noreferrer"
       >
         <div className="portfolio__project--left">
-          <img src={chewzeelargelogo} alt="ecom" />
+          <img
+            className="portfolio__project--img"
+            src={chewzeelargelogo}
+            alt="ecom"
+          />
         </div>
 
         <div className="portfolio__project--right">

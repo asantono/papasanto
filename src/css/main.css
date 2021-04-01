@@ -241,6 +241,9 @@ body {
     width: 29rem;
     box-shadow: 0 0.7rem 1.4rem rgba(11, 12, 16, 0.2);
     transition: all 0.3s; }
+    .courses__course--wrapper img {
+      width: 29rem;
+      height: 16rem; }
     .courses__course--wrapper:hover {
       box-shadow: 0 1rem 2rem rgba(11, 12, 16, 0.3);
       transform: translateY(-2px);
@@ -278,6 +281,8 @@ body {
     justify-content: center;
     width: 100%;
     margin-bottom: 3rem; }
+    .portfolio__project--img {
+      width: 45rem; }
     @media (max-width: 992px) {
       .portfolio__project {
         flex-direction: column; } }
@@ -322,7 +327,7 @@ body {
         .portfolio__project--right {
           margin-left: 0; } }
       .portfolio__project--right img {
-        width: 100%; }
+        width: 45rem; }
 
 .contact {
   background-color: #1a2238; }

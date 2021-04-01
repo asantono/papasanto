@@ -27,6 +27,10 @@
     width: 100%;
     margin-bottom: 3rem;
 
+    &--img {
+      width: 45rem;
+    }
+
     @include lg {
       flex-direction: column;
     }
@@ -88,7 +92,8 @@
       }
 
       & img {
-        width: 100%;
+        // width: 100%;
+        width: 45rem;
       }
     }
   }

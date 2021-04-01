@@ -66,6 +66,11 @@
       box-shadow: 0 0.7rem 1.4rem rgba($color-black, 0.2);
       transition: all 0.3s;
 
+      & img {
+        width: 29rem;
+        height: 16rem;
+      }
+
       &:hover {
         box-shadow: 0 1rem 2rem rgba($color-black, 0.3);
         transform: translateY(-2px);

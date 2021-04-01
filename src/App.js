@@ -1,8 +1,8 @@
 import { useRef } from "react";
+import CarouselOne from "./components/carousel/CarouselOne";
 import Contact from "./components/contact/Contact";
 import Courses from "./components/courses/Courses";
 import Footer from "./components/footer/Footer";
-import Header from "./components/header/Header";
 import Portfolio from "./components/portfolio/Portfolio";
 import "./css/main.css";
 const App = () => {
@@ -28,7 +28,7 @@ const App = () => {
 
   return (
     <div>
-      <Header func={goToRef} funcTwo={goToSocialRef} />
+      <CarouselOne func={goToRef} funcTwo={goToSocialRef} />
       <Portfolio ref={ref} />
       <Courses />
       <Contact ref={socialRef} />

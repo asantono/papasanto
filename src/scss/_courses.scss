@@ -81,6 +81,10 @@
       height: 26rem;
       padding: 1.6rem;
       font-size: 1.8rem;
+
+      @include sm {
+        height: max-content;
+      }
     }
   }
 }

@@ -69,6 +69,10 @@
     &--story {
       font-size: 1.8rem;
       padding-top: 1.8rem;
+      @include sm {
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
     }
 
     &--left {
@@ -92,7 +96,6 @@
       }
 
       & img {
-        // width: 100%;
         width: 45rem;
       }
     }

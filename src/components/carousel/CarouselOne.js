@@ -2,7 +2,6 @@ import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import handshake from "../../imgs/handshake.jpg";
-import coding from "../../imgs/coding.jpg";
 import mobilephone from "../../imgs/mobilephone.jpg";
 import CarouselOverlay from "./CarouselOverlay";
 import ecommerce from "../../imgs/ecommerce.jpg";

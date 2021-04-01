@@ -1,0 +1,100 @@
+@import "./variables";
+
+.contact {
+  background-color: $color-blue-dark;
+
+  &__title {
+    font-size: 4rem;
+    color: $color-white;
+    padding: 4rem;
+    text-align: center;
+  }
+
+  &__icons {
+    display: grid;
+    row-gap: 4rem;
+    width: 100%;
+    justify-content: space-around;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(38rem, 1fr));
+    padding-bottom: 2rem;
+
+    @include md {
+      grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+    }
+
+    @include sm {
+      grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    }
+
+    & a,
+    a:visited {
+      text-decoration: none !important;
+      transition: all 0.3s;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    &--youtube {
+      color: $color-youtube;
+      font-size: 12rem;
+      transition: all 0.3s;
+
+      &:hover {
+        color: $color-white;
+      }
+    }
+
+    &--devto {
+      color: $color-youtube;
+      font-size: 10.5rem;
+      transition: all 0.3s;
+
+      &:hover {
+        color: $color-white;
+      }
+    }
+
+    &--facebook {
+      color: $color-twitter;
+      font-size: 11rem;
+      transition: all 0.3s;
+
+      &:hover {
+        color: $color-white;
+      }
+    }
+
+    &--email {
+      color: $color-blue-light;
+      font-size: 11rem;
+      transition: all 0.3s;
+
+      &:hover {
+        color: $color-white;
+      }
+    }
+
+    &--linkedin {
+      color: $color-linkedin;
+      font-size: 11rem;
+      transition: all 0.3s;
+
+      &:hover {
+        color: $color-white;
+      }
+    }
+
+    &--twitter {
+      color: $color-twitter;
+      font-size: 11rem;
+      transition: all 0.3s;
+
+      &:hover {
+        color: $color-white;
+      }
+    }
+  }
+}

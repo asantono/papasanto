@@ -1,25 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import { useRef } from "react";
+import Contact from "./components/contact/Contact";
+import Courses from "./components/courses/Courses";
+import Footer from "./components/footer/Footer";
+import Header from "./components/header/Header";
+import Portfolio from "./components/portfolio/Portfolio";
+import "./css/main.css";
+const App = () => {
+  const ref = useRef(null);
 
-function App() {
+  const socialRef = useRef(null);
+
+  const goToRef = () => {
+    ref.current.scrollIntoView({
+      block: "start",
+      inline: "center",
+      behavior: "smooth",
+    });
+  };
+
+  const goToSocialRef = () => {
+    socialRef.current.scrollIntoView({
+      block: "start",
+      inline: "center",
+      behavior: "smooth",
+    });
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header func={goToRef} funcTwo={goToSocialRef} />
+      <Portfolio ref={ref} />
+      <Courses />
+      <Contact ref={socialRef} />
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;

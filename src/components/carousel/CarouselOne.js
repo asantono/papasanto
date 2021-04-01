@@ -6,12 +6,9 @@ import coding from "../../imgs/coding.jpg";
 import mobilephone from "../../imgs/mobilephone.jpg";
 import CarouselOverlay from "./CarouselOverlay";
 import ecommerce from "../../imgs/ecommerce.jpg";
+import laptop from "../../imgs/laptop.jpg";
 
 const CarouselOne = ({ func, funcTwo }) => {
-  // const goToForm = () => {
-  //   document.getElementById("name").focus();
-  // };
-
   return (
     <div className="carousel">
       <Carousel
@@ -29,11 +26,12 @@ const CarouselOne = ({ func, funcTwo }) => {
             title="Web Development"
             func={func}
             funcTwo={funcTwo}
+            dark={true}
           />
           <img
             className="carousel__image"
             key="img"
-            src={coding}
+            src={laptop}
             alt="carousel"
           />
         </div>

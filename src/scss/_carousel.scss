@@ -162,6 +162,13 @@
         rgba($color-black-light, 0.3)
       );
       z-index: 20000000;
+
+      &--dark {
+        background-image: radial-gradient(
+          rgba($color-black, 0.55),
+          rgba($color-black-light, 0.55)
+        );
+      }
     }
     &--wrapper {
       display: flex;

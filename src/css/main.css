@@ -175,6 +175,8 @@ body {
     color: #f7f7f7;
     background-image: radial-gradient(rgba(11, 12, 16, 0.3), rgba(31, 40, 51, 0.3));
     z-index: 20000000; }
+    .carousel__image--overlay--dark {
+      background-image: radial-gradient(rgba(11, 12, 16, 0.55), rgba(31, 40, 51, 0.55)); }
   .carousel__image--wrapper {
     display: flex;
     text-align: left;

@@ -3,9 +3,12 @@ import resumelogo from "../../imgs/resumelogo.png";
 import { AiOutlineDown } from "react-icons/ai";
 
 const CarouselOverlay = (props) => {
-  const { title, func, funcTwo } = props;
+  const { title, func, funcTwo, dark } = props;
+  const overlayStyle = dark
+    ? "carousel__image--overlay carousel__image--overlay--dark"
+    : "carousel__image--overlay";
   return (
-    <div className="carousel__image--overlay">
+    <div className={overlayStyle}>
       <div className="carousel__large">
         <img className="carousel__logo" src={resumelogo} alt="LOGO" />
         <div className="carousel__image--wrapper">

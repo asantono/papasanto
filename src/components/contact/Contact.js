@@ -4,9 +4,11 @@ import {
   AiFillFacebook,
   AiFillLinkedin,
   AiFillTwitterSquare,
+  AiFillGithub,
 } from "react-icons/ai";
-import { FaDev } from "react-icons/fa";
+import { FaDev, FaGithubSquare, FaTwitterSquare } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import { IoLogoYoutube } from "react-icons/io";
 
 const Contact = forwardRef((props, ref) => {
   return (
@@ -15,11 +17,11 @@ const Contact = forwardRef((props, ref) => {
       <div className="contact__icons">
         <a
           className="contact__icons--email"
-          href="mailto:emailpapasanto@gmail.com"
+          href="https://github.com/asantono"
           target="_blank"
           rel="noreferrer"
         >
-          <MdEmail />
+          <FaGithubSquare />
         </a>
 
         <a
@@ -28,7 +30,7 @@ const Contact = forwardRef((props, ref) => {
           target="_blank"
           rel="noreferrer"
         >
-          <AiFillYoutube />
+          <IoLogoYoutube />
         </a>
 
         <a
@@ -46,7 +48,7 @@ const Contact = forwardRef((props, ref) => {
           target="_blank"
           rel="noreferrer"
         >
-          <AiFillTwitterSquare />
+          <FaTwitterSquare />
         </a>
 
         <a

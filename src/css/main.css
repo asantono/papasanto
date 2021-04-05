@@ -351,7 +351,7 @@ body {
         cursor: pointer; }
     .contact__icons--youtube {
       color: #ff0000;
-      font-size: 12rem;
+      font-size: 11rem;
       transition: all 0.3s; }
       .contact__icons--youtube:hover {
         color: #ffffff; }
@@ -369,7 +369,7 @@ body {
         color: #ffffff; }
     .contact__icons--email {
       color: #9daaf2;
-      font-size: 11rem;
+      font-size: 10.5rem;
       transition: all 0.3s; }
       .contact__icons--email:hover {
         color: #ffffff; }
@@ -381,7 +381,7 @@ body {
         color: #ffffff; }
     .contact__icons--twitter {
       color: #00acee;
-      font-size: 11rem;
+      font-size: 10.8rem;
       transition: all 0.3s; }
       .contact__icons--twitter:hover {
         color: #ffffff; }

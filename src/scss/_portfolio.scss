@@ -43,12 +43,8 @@
 
     &--and {
       font-size: 4rem;
-      padding-top: 3rem;
+      padding-top: 2rem;
       padding-bottom: 5rem;
-
-      @include lg {
-        padding-top: 2rem;
-      }
     }
 
     &--padding {
